@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Form Çalışması</title>
+    </head>
+    <body>
+        <form name="uygulama", action="form.php", method = "GET">
+            Ad Soyad: <input type="text" name = "adsoyad" id ="idadsoyad"
+            size="30" maxlength="40" required>
+            <br> 
+            Email: 
+            <input type="email" name="email" id=email required>
+            <br> 
+            Web Sitesi:
+            <input type="url" name="adres" id="adres" required>
+            <br>
+            Yaşınız:
+            <input type="number" name="yas" id="yas" required>
+            <br>
+            <br>
+            <input type="submit" value="tamam">
+            <input type="reset" value="sıfırla">
+        </form>
+        <input type="checkbox" name="pizza"> Extra sucuk
+        <br>
+        <input type="checkbox" name="pizza"> extra zeytin
+        <br>
+        <input type="checkbox" name="pizza"> extra biber
+        <br>    
+        <input type="checkbox" name="pizza"> extra mantar
+        <br>
+        <input type="submit" value="ekle">
+        <br>
+        <br>
+        <br>
+        <body>
+            <input type="radio" name="radio"> evliyim
+            <br>
+            <input type="radio" name="radio"> bekarım
+            <br>
+            <input type="radio" name="radio"> belirtmek istemiyorum
+            <br>
+            <input type="submit" value="gönder">
+        </body>
+    </body>   
+    <br>
+    <br>
+    <br>
+    <body>
+        <h1>hizmet verilen iller</h1>
+        <form>
+            <select name="hizmetil" id="hizmetil">
+                <option>izmir</option>
+                <option>denizli</option>
+                <option>muğla</option>
+                <option>uşak</option>
+                <option>manisa</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" value="gönder">
+            <input type="reset" value="sıfırla">
+        </form>
+    </body>
+</html>
